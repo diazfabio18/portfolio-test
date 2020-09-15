@@ -22,13 +22,13 @@ body {
 
 /*********** MAIN *****************/
 
-main {
+.presentation {
     position: relative;
     background-color: #000;
     height: 92vh;
 }
 
-main::before {
+.presentation::before {
     content: '';
     display: block;
     position: absolute;
@@ -54,7 +54,7 @@ main::before {
 /*********** SECTION *******************/
 
 
-section > .row > div {
+.proyect-recents > .row > div {
     background: white;
     box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
 }
@@ -82,4 +82,25 @@ footer > .row {
         margin: 0;
     }
 
+}
+
+.box-description{
+    background: white;
+    box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.box-h{
+    height: 260px;
+}
+
+.image-pre{
+   padding: 0;
+    
+}
+
+.image-pre figure{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
 }
