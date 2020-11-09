@@ -13,11 +13,14 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/95137fcb9f.js" crossorigin="anonymous"></script>
 
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- ION ICONS-->
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    
+    <!-- GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
     <title>Fabio Leonel Díaz</title>
@@ -28,7 +31,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
-        <a class="navbar-brand font-weight-bold" href="#">PORTFOLIO</a>
+        <a class="navbar-brand font-weight-bold" href="#">Portfolio</a>
 
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars text-white"></i>
@@ -37,155 +40,220 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav ml-auto">
 
-                <li class="nav-item ">
-                    <a class="nav-link text-white" href="#">Inicio</a>
-                </li>
-                <!--
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#proyectos">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#contacto">Contacto</a>
-                </li>
-                -->
-                
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="./working.html">¿Como trabajo?</a>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-light" href="#">Inicio</a>
                 </li>
                 
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="./about.html">Sobre mi</a>
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-light" href="#tech">Tecnologías</a>
                 </li>
                 
-
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-light" href="#proyect">Proyectos</a>
+                </li>
+                
+                <li class="nav-item mr-3">
+                    <a class="nav-link text-light" href="#contact">Contacto</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-light" href="./about.html">Sobre mi</a>
+                </li>
+            
             </ul>
         </div>
     </nav>
 
     <!-- MAIN PRESENTATION-->
-    <main class="container-fluid presentation">
-
-        <div class="row  justify-content-center align-items-center text-white content-main ">
-            <div class="col-lg-12">
-                <h1 class="text-center">Fabio Leonel Díaz</h1>
-            </div>
-            <div class="col-lg-12">
-                <h3 class="text-center">Full-Stack Developer</h3>
-            </div>
-            <div class="col-lg-12">
-                <p class="text-center">
-                    <a href="#proyectos" class="btn btn-primary proyect-view">Ver Proyectos</a>
-                </p>
-
-
+    
+    <main class="py-5 vf d-flex">
+        <div class="container align-self-center">
+            <div class="row ">
+                <div class="col-lg-6 align-self-center mr-5">
+                    <h1 class="mb-4">Fabio Leonel Díaz <br><span class="text-warning">Full-Stack-Developer</span></h1>
+                    <p class="lead mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum magni maxime est numquam. Dolorum aperiam voluptatibus, quas suscipit magni provident.
+                    </p>
+                    <div class="mb-4">
+                        <a href="#" class="btn btn-primary mr-2 mb-3 shadow">LinkedIn</a>
+                        <a href="#" class="btn btn-dark mr-2 mb-3 shadow">GitHub</a>
+                    </div>
+                    <p>Automatizaciones, diseño, desarrollo ... y más!</p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="./images/union.svg" alt="union" class="main-img">
+                </div>
             </div>
         </div>
-
-
     </main>
-
-
-   <!-- HEADER -->
+    
+    <!-- HEADER -->
     <header class="container-fluid mt-2 mb-2">
-        <h2 class="text-center mt-3 mb-3 font-weight-bolder font-italic">"Si no descubriste tu talento, entonces esfuerzate por crear uno..."</h2>
+        <h2 class="text-center mt-3 mb-3 font-weight-bolder font-italic">"Esfuerzate cada día, y se cumplirán tus sueños..."</h2>
         <p class="text-muted text-center ">- Desconocido</p>
     </header>
-
-   <!-- PROYECTS -->
-    <section class="container-fluid bg-light proyect-recents" id="proyectos">
-
-        <h2>
-            <p class="text-center pt-5 pb-5 ">
-                Proyectos
-            </p>
-        </h2>
-
-
-        <article class="row justify-content-around pt-3 pb-3">
-            <div class="col-lg-4 col-md-12 p-0">
-                <img src="https://site.aurora-israel.co.il/wp2/wp-content/uploads/2020/08/digits.jpg" class="card-img" alt="Mystery">
+    
+    <!-- Tecnologías-->
+    <section class="py-5 tools d-flex" id="tech">
+        <div class="container align-self-center">
+            <div class="w-75 text-center mx-auto mb-5">
+                <h2>Tecnologías</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perspiciatis officiis dignissimos totam ad ducimus expedita magnam eius aperiam rem.</p>
             </div>
-            <div class="col-lg-7 col-md-12 ">
-                <div class="card-body">
-                    <h5 class="card-title text-primary font-weight-bolder">The Mystery of The Numbers</h5>
-                    <h6 class="card-text text-success"> <p class="font-weight-bold text-dark font-italic d-inline">Tecnologías: </p> Vue JS v2, Rest API, MongoDB, NodeJS, Cloudinary, Heroku </h6>
-                    
-                    <p class="card-text">A secret blog with posts images and videos for a special person.</p>
-
-                    <div class="row text-white container-fluid ">
-                        <div class="col-lg-4 col-6 d-md-inline m-0 p-0">
-                            <a href="https://diazfabio18.github.io/Tmotn/" class="btn btn-success">Ver On Server <i class="fas fa-laptop-code"></i></a>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card border-0">
+                        <div class="card-body bg-primary">
+                            <h2 class="text-center font-weight-bold mb-4">Backend</h2>
+                            
+                            <ul class="list-unstyled mb-0 text-center">
+                                <li>Java</li>
+                                <li>Node JS</li>
+                                <li>MongoDB</li>
+                            </ul>
                         </div>
-                        <div class="col-lg-4 col-6 d-md-inline m-0 p-0">
-                            <a href="https://github.com/diazfabio18/Tmotn" class="btn btn-dark">Ver en Github <i class="fab fa-github text-truncate"></i></a>
-                        </div>
+                        
                     </div>
-
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body bg-primary">
+                            <h2 class="text-center font-weight-bold mb-4">Frontend</h2>
+                            
+                            <ul class="list-unstyled mb-0 text-center">
+                                <li>Javascript</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body bg-primary">
+                            <h2 class="text-center font-weight-bold mb-4">Herramientas</h2>
+                            
+                            <ul class="list-unstyled mb-0 text-center">
+                                <li>Scrum</li>
+                                <li>Git</li>
+                                <li>Jira</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
-        </article>
-
-        <article class="row justify-content-around pt-3 pb-4">
-            <div class="col-lg-4 col-md-12 p-0">
-                <img src="https://poszytek.eu/wp-content/uploads/2017/10/Essential-Tasks-For-a-New-WordPress-Site.jpg" class="card-img" alt="tasks">
+        </div>
+    </section>
+    
+    <!-- Proyectos destacados -->
+    <section class="py-5 tools d-flex" id="proyect">
+        <div class="container align-self-center">
+            <div class="w-75 text-center mx-auto mb-5">
+                <h2>Proyectos destacados</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat perspiciatis officiis dignissimos totam ad ducimus expedita magnam eius aperiam rem.</p>
             </div>
-            <div class="col-lg-7 col-md-12">
-                <div class="card-body">
-                    <h5 class="card-title text-primary font-weight-bolder">Task Anotations</h5>
-                    <h6 class="card-text text-success"> <p class="font-weight-bold text-dark font-italic d-inline">Tecnologías: </p> React JS, Typescript </h6>
-                    <p class="card-text">A list of tasks.</p>
-
-                    <div class="row text-white container-fluid ">
-                        <div class="col-lg-4 col-6 d-md-inline m-0 p-0">
-                            <a href="https://diazfabio18.github.io/task-anotations/" class="btn btn-success">Ver On Server <i class="fas fa-laptop-code"></i></a>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 ">
+                       <div class="card-header p-0">
+                           <img src="./images/PLC.jpg" alt="" class="img-fluid">
+                       </div>
+                        <div class="card-body bg-primary">
+                            <h2 class="text-center font-weight-bold mb-4">The Mystery of The Numbers</h2>
+                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dicta voluptate aliquam minima eos nostrum consequuntur sunt porro vero excepturi.
+                            
+                            Tecnologías: Vue JS v2, Rest API, MongoDB, NodeJS, Cloudinary, Heroku</p>
+                            
+                            <div class="text-center">
+                                <a href="https://github.com/diazfabio18/Tmotn" class="btn btn-dark"><i class="icon ion-md-briefcase mr-1 icon-size"></i>Ver en Github</a>
+                                <a href="https://diazfabio18.github.io/Tmotn/" class="btn btn-success"><i class="icon ion-md-wifi mr-1 icon-size"></i> Ver en vivo</a>
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-6 d-md-inline m-0 p-0">
-                            <a href="https://github.com/diazfabio18/task-anotations" class="btn btn-dark">Ver en Github <i class="fab fa-github "></i></a>
-                        </div>
+                        
                     </div>
-
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 ">
+                       <div class="card-header p-0">
+                           <img src="./images/PLC.jpg" alt="" class="img-fluid">
+                       </div>
+                        <div class="card-body bg-primary">
+                            <h2 class="text-center font-weight-bold mb-4">Task Anotations</h2>
+                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dicta voluptate aliquam minima eos nostrum consequuntur sunt porro vero excepturi.
+                            
+                            Tecnologías: React JS, Typescript</p>
+                            
+                            <div class="text-center">
+                                <a href="" class="btn btn-dark">Ver en Github</a>
+                                <a href="" class="btn btn-success">Ver en vivo</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card border-0 ">
+                       <div class="card-header p-0">
+                           <img src="./images/PLC.jpg" alt="" class="img-fluid">
+                       </div>
+                        <div class="card-body bg-primary">
+                            <h2 class="text-center font-weight-bold mb-4">Backend</h2>
+                            
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dicta voluptate aliquam minima eos nostrum consequuntur sunt porro vero excepturi.</p>
+                            
+                            <div class="text-center">
+                                <a href="" class="btn btn-dark">Ver en Github</a>
+                                <a href="" class="btn btn-success">Ver en vivo</a>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
             </div>
-        </article>
+        </div>
+    </section>
+   
+    
+    <section class="py-5 bg-dark">
+        <div class="container">
+            <div class="w-75 text-center mx-auto">
+                <h2 class="font-weight-bold mb-4">Contacto</h2>
+                
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2>Email</h2>
+                        <span class="list-inline-item"><i class="icon ion-md-mail icon-size mr-2 text-warning"></i><a href="mailto:diaz.fabio.leonel@gmail.com" class="link-contact"> diaz.fabio.leonel@gmail.com</a></span>
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Red profesional</h2>
+                        
+                        <span class="list-inline-item"><i class="icon ion-logo-linkedin mr-2 text-warning icon-size"></i> <a href="" class="link-contact">enlace a link</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-   <!-- FOOTER -->
-    <footer class="bg-primary container-fluid " id="contacto">
-        <div class="row justify-content-center pt-2">
-            <div class="col-2">
-                <p class="text-center">
-                    <a href="https://www.github.com/diazfabio18">
-                        <i class="fab fa-github icon text-white text-truncate"></i>
-                    </a>
-                </p>
+<footer class="bg-dark py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Desarrollado por <a href="#" class="text-warning">Fabio Leonel Díaz</a></p>
             </div>
-            <div class="col-2">
-                <p class="text-center">
-                    <a href="https://www.instagram.com/fl_diaz/" class="text-center">
-                        <i class="fab fa-instagram icon text-white"></i>
-                    </a>
-                </p>
-            </div>
-            <div class="col-2">
-                <p class="text-center">
-                    <a href="https://www.facebook.com/fl.diaz.3">
-                        <i class="fab fa-facebook icon text-white"></i>
-                    </a>
-                </p>
-            </div>
-            <div class="col-2">
-                <p class="text-center">
-                    <a href="https://www.linkedin.com/in/diazfabio">
-                        <i class="fab fa-linkedin icon  text-white"></i>
-                    </a>
-                </p>
-            </div>
+            <div class="col-lg-6 text-right">
 
+                <ul class="list-inline mb-0">
+                    <li> <a href="">d</a></li>
+                </ul>
+            </div>
         </div>
-        <p class=" text-white m-0 text-center bg-primary">©2020 Desarrollado por Fyluj Electronic</p>
-
-    </footer>
-
+    </div>
+</footer>
 
 
 

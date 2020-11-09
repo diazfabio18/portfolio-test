@@ -1,14 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-
-    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: darkblue;
 }
-
 
 /************ NAV **************/
 .navbar {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
+    min-height: 4rem;
 }
 
 .nav-item:hover {
@@ -22,85 +24,36 @@ body {
 
 /*********** MAIN *****************/
 
-.presentation {
-    position: relative;
-    background-color: #000;
-    height: 92vh;
-}
-
-.presentation::before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    opacity: 0.5;
-    background-image: url('./images/playa.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-
-.content-main {
-    height: 80vh;
-    padding: 15vh;
-
+.shadow {
+    box-shadow:  0 .5rem .5rem 0 rgba(0,0,0,0.5) !important;
 }
 
 /*********** SECTION *******************/
-
-
-.proyect-recents > .row > div {
-    background: white;
-    box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+.vf{
+    min-height: 91vh;
 }
+
+.tools{
+    min-height: 100vh;
+    background-color: black
+}
+
 
 /********** FOOTER ***************/
 
-footer > .row {
-    margin-left: 20%;
-    margin-right: 20%;
+.icon-size{
+    font-size: 20px;
 }
 
-.icon {
-    font-size: 40px;
-}
-
-
-@media screen and (max-width: 500px) {
-    .content-main {
-        height: 60vh;
-        padding: 15vh 0 0 0;
-
-    }
-
-    footer > .row {
-        margin: 0;
-    }
-
-}
-
-.box-description{
-    background: white;
-    box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.75);
-}
-
-.box-h{
-    height: 260px;
-}
-
-.image-pre{
-   padding: 0;
-    
-}
-
-.image-pre figure{
-    margin: 0;
-    padding: 0;
-    width: 100%;
+.main-img {
+    width: 90%;
     height: auto;
+}
+
+a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+.icon-big{
+    font-size: 40px;
 }
