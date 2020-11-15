@@ -5,12 +5,18 @@ body {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     background-color: darkblue;
+    
 }
 
 /************ NAV **************/
 .navbar {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05);
     min-height: 4rem;
+    
+    background: rgb(47,113,233);
+background: linear-gradient(125deg, rgba(47,113,233,1) 0%, rgba(47,47,170,1) 48%, rgba(16,0,255,1) 100%);
+    
+    
 }
 
 .nav-item:hover {
@@ -24,9 +30,11 @@ body {
 
 /*********** HEADER ***************/
 header{
-    background-image: url(images/finance.png);
+    /*background-image: url(images/finance.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    background: rgb(47,113,233);
+background: linear-gradient(125deg, rgba(47,113,233,1) 0%, rgba(47,47,170,1) 48%, rgba(16,0,255,1) 100%);
 }
 
 
@@ -38,7 +46,8 @@ header{
 
 /*********** SECTION *******************/
 .vf{
-    min-height: 91vh;
+    min-height: 100vh;
+    margin-top: 60px;
 }
 
 .tools{
@@ -64,4 +73,27 @@ a:link, a:visited, a:active{
 
 .icon-big{
     font-size: 30px;
+}
+
+.parrallax{
+    background: #fff fixed no-repeat 50% 50%;
+    background-size: cover;
+    background-image: url(images/programacion-2.jpg);
+}
+
+#proyect{
+     background-image: url(images/programacion.jpg);   
+}
+
+#contact{
+    background-color: darkblue;
+}
+
+footer{
+    background: rgb(47,113,233);
+background: linear-gradient(125deg, rgba(47,113,233,1) 0%, rgba(47,47,170,1) 48%, rgba(16,0,255,1) 100%);
+}
+
+main{
+    background-image: radial-gradient(circle at 50% 98%, #6485f8 0, #3c78f2 50%, #006bec 100%);
 }

@@ -29,7 +29,7 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
 
         <a class="navbar-brand font-weight-bold" href="#">Portfolio</a>
 
@@ -37,7 +37,7 @@
             <i class="fas fa-bars text-white"></i>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item mr-3">
@@ -80,7 +80,7 @@
                         <a href="https://www.linkedin.com/in/diazfabio/" class="btn btn-primary mr-2 mb-3 shadow">LinkedIn</a>
                         <a href="https://github.com/diazfabio18/" class="btn btn-dark mr-2 mb-3 shadow">GitHub</a>
                     </div>
-                    <p>Automatizaciones, diseño, desarrollo ... y más!</p>
+                    <p>Automatizaciones, electrónica, desarrollo ... y más!</p>
                 </div>
                 <div class="col-lg-5">
                     <img src="./images/union.svg" alt="union" class="main-img">
@@ -96,11 +96,11 @@
     </header>
     
     <!-- Tecnologías-->
-    <section class="  tools d-flex" id="tech">
+    <section class=" tools d-flex parrallax" id="tech">
         <div class="container align-self-center">
             <div class="w-75 text-center mx-auto mb-5">
-                <h2>Tecnologías</h2>
-                <p>Utilizo los lenguajes y metodologías más recientes y más demandadas del mercado para obtener un producto actualizado, estable, y eficiente. </p>
+                <h2 class="bg-dark p-2 mb-4 list-inline-item">Tecnologías</h2>
+                <p class="bg-dark p-2 mb-4 list-inline-item">Utilizo los lenguajes y metodologías más recientes y más demandadas del mercado para obtener un producto actualizado, estable, y eficiente. </p>
             </div>
             <div class="row">
                 <div class="col-lg-4">
@@ -109,8 +109,8 @@
                             <h2 class="text-center font-weight-bold mb-4">Backend</h2>
                             
                             <ul class="list-unstyled mb-0 text-center">
-                                <li class="font-weight-bold">C#</li>
-                                <li class="font-weight-bold">SQL Server</li>
+                                <li class="font-weight-bold">Java</li>
+                                <li class="font-weight-bold">SQL</li>
                                 <li class="font-weight-bold">Rest API</li>
                                 <li class="font-weight-bold">Node JS</li>
                                 <li class="font-weight-bold">Express JS</li>
@@ -156,24 +156,28 @@
     </section>
     
     <!-- Proyectos destacados -->
-    <section class="py-5 tools d-flex" id="proyect">
+    <section class="py-5 tools d-flex parrallax" id="proyect">
         <div class="container align-self-center">
             <div class="w-75 text-center mx-auto mb-5">
-                <h2>Proyectos destacados</h2>
-                <p>Una prueba de mis conocimientos, que demuestran el alcance que puedo realizar con mi perseverancia.</p>
+                <h2 class="bg-dark p-2 mb-4 list-inline-item">Proyectos destacados</h2>
+                <p class="bg-dark p-1 list-inline-item">Una prueba de mis conocimientos, que demuestran el alcance que puedo realizar con mi perseverancia.</p>
             </div>
             <div class="row">
                 <div class="col-lg-4 mb-4">
                     <div class="card border-0 ">
                        <div class="card-header p-0 border-0">
-                           <img src="./images/PLC.jpg" alt="" class="img-fluid">
+                           <img src="./images/numbers.jpg" alt="" class="img-fluid">
                        </div>
                         <div class="card-body bg-primary">
                             <h3 class="text-center font-weight-bold mb-4">The Mystery of The Numbers</h3>
                             
-                            <p>
+                            <p>Un sitio de imagenes especiales sobre unos números misteriosos</p>
                             
-                            Tecnologías: Vue JS v2, Rest API, MongoDB, NodeJS, Cloudinary, Heroku</p>
+                            <div class="container-fluid d-flex">
+                            <h5 class=" bg-dark list-inline-item p-2 mx-auto">Tecnologías</h5>
+                            </div>
+                            
+                                <p class="font-weight-bold">Vue JS v2, Rest API, MongoDB, NodeJS, Cloudinary, Heroku</p>
                             
                             <div class="text-center">
                                 <a href="https://github.com/diazfabio18/Tmotn" class="btn btn-dark"><i class="icon ion-md-briefcase mr-1 icon-size"></i>Ver en Github</a>
@@ -187,18 +191,24 @@
                 <div class="col-lg-4 mb-4">
                     <div class="card border-0 ">
                        <div class="card-header p-0 border-0">
-                           <img src="./images/PLC.jpg" alt="" class="img-fluid">
+                           <img src="./images/sube.jpg" alt="" class="img-fluid">
                        </div>
                         <div class="card-body bg-primary">
-                            <h3 class="text-center font-weight-bold mb-4">Task Anotations</h3>
+                            <h3 class="text-center font-weight-bold mb-4">System Control with SUBE card</h3>
                             
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dicta voluptate aliquam minima eos nostrum consequuntur sunt porro vero excepturi.
+                            <p>
+                                Sistema de seguridad para institución pública de alta asistencia de personas, que restringe el acceso a diversas áreas para personal autorizado.
+                                <br> Uso de la tarjeta SUBE como medio único de identificación. <br>Sistema ABM con interfaz gráfica.
+                             </p>
                             
-                            Tecnologías: React JS, Typescript</p>
+                            <div class="container-fluid d-flex">
+                            <h5 class=" bg-dark list-inline-item p-2 mx-auto">Tecnologías</h5>
+                            </div>
+                            
+                                <p class="font-weight-bold"> C++, SQL, Arduino. HTML y CSS<br>Electrónica analógica, comunicación ethernet, tecnología RFID</p>
                             
                             <div class="text-center">
-                                <a href="" class="btn btn-dark"><i class="icon ion-md-briefcase mr-1 icon-size"></i>Ver en Github</a>
-                                <a href="" class="btn btn-success"><i class="icon ion-md-wifi mr-1 icon-size"></i>Ver en vivo</a>
+                                <a href="https://github.com/diazfabio18/Control-System-access-SUBE" class="btn btn-dark"><i class="icon ion-md-briefcase mr-1 icon-size"></i>Ver en Github</a>
                             </div>
                         </div>
                         
@@ -207,16 +217,23 @@
                 <div class="col-lg-4 mb-4">
                     <div class="card border-0 ">
                        <div class="card-header p-0 border-0">
-                           <img src="./images/PLC.jpg" alt="" class="img-fluid">
+                           <img src="./images/servo.jpg" alt="" class="img-fluid">
                        </div>
                         <div class="card-body bg-primary">
-                            <h3 class="text-center font-weight-bold mb-4">Backend</h3>
+                            <h3 class="text-center font-weight-bold mb-4">Logistic System with Servomotors</h3>
                             
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti dicta voluptate aliquam minima eos nostrum consequuntur sunt porro vero excepturi.</p>
+                            <p>Sistema de almacenamiento de objetos identificados por su color.
+                            <br> Movimiento de forma angular con servomotores. 
+                            <br>Control en tiempo real de objetos almacenados, color, y ubicación a través de interfaz gráfica. </p>
+                            
+                            <div class="container-fluid d-flex">
+                            <h5 class=" bg-dark list-inline-item p-2 mx-auto">Tecnologías</h5>
+                            </div>
+                            
+                                <p class="font-weight-bold">C, C++, QT Framework. <br>Protocolo Serie 9800N1. <br>Programación en microcontrolador ARM Cortex 32 bits</p>
                             
                             <div class="text-center">
-                                <a href="" class="btn btn-dark"><i class="icon ion-md-briefcase mr-1 icon-size"></i>Ver en Github</a>
-                                <a href="" class="btn btn-success"><i class="icon ion-md-wifi mr-1 icon-size"></i>Ver en vivo</a>
+                                <a href="https://github.com/diazfabio18/Logistic-System-with-Servo-motors" class="btn btn-dark"><i class="icon ion-md-briefcase mr-1 icon-size"></i>Ver en Github</a>
                             </div>
                         </div>
                         
@@ -227,7 +244,7 @@
     </section>
    
     
-    <section class="py-5 bg-dark">
+    <section class="py-5 " id="contact">
         <div class="container">
             <div class="w-75 text-center mx-auto">
                 <h2 class="font-weight-bold mb-4">Contacto</h2>
@@ -235,19 +252,19 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <h2>Email</h2>
-                        <span class="list-inline-item"><i class="icon ion-md-mail icon-size mr-2 text-warning"></i><a href="mailto:diaz.fabio.leonel@gmail.com" class="link-contact"> diaz.fabio.leonel@gmail.com</a></span>
+                        <span class="list-inline-item"><i class="icon ion-md-mail icon-size mr-2 text-warning"></i><a href="mailto:diaz.fabio.leonel@gmail.com" class="link-contact text-light"> diaz.fabio.leonel@gmail.com</a></span>
                     </div>
                     <div class="col-lg-6">
                         <h2>Red profesional</h2>
                         
-                        <span class="list-inline-item"><i class="icon ion-logo-linkedin mr-2 text-warning icon-size"></i> <a href="https://www.linkedin.com/in/diazfabio/" class="link-contact">diazfabio</a></span>
+                        <span class="list-inline-item"><i class="icon ion-logo-linkedin mr-2 text-warning icon-size"></i> <a href="https://www.linkedin.com/in/diazfabio/" class="link-contact text-light">diazfabio</a></span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-<footer class="bg-dark py-3">
+<footer class="bg-primary py-3">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
